@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Jersey+25&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>jjhjh site</title>
+</head>
+<body>
+    <div class="h b">
+        <h1>encode & decode</h1>
+    </div>
+    <div class="wrap">
+        
+
+        <div class="ip">
+            <textarea name="inputValue" id="inputValue" placeholder="입력 데이터 . . ."></textarea>
+        </div>
+
+        <div class="res">
+            <table>
+                <tr>
+                    <th>STRING TO ASCII</th>
+                    <td id="str2ascii">...</td>
+                </tr>
+                <tr>
+                    <th>STRING TO HEX</th>
+                    <td id="str2hex">...</td>
+                </tr>
+                <tr>
+                    <th>STRING TO HEX<br>(little endian)</th>
+                    <td id="str2little">...</td>
+                </tr>
+                <tr>
+                    <th>STRING TO BINARY</th>
+                    <td id="str2binary">...</td>
+                </tr>
+            </table>
+        </div>
+
+        <button id="base64E">base64 encode</button>
+        <button id="base64D">base64 decode</button>
+        <button id="urlE">URL encode</button>
+        <button id="urlD">URL decode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
